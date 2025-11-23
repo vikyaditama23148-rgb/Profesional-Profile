@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio website template - Modern minimalist design">
+    <meta name="keywords" content="portfolio, professional, designer, developer, minimalist">
+    <meta name="author" content="Viky Aditama">
+    <title>Viky Aditama - Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">Viky Aditama</a>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content fade-in">
+                <h1 class="hero-title">Viky Aditama</h1>
+                <p class="hero-subtitle">Professional Teacher & Problem Solver</p>
+                <p class="hero-description">Creating extraordinary literary writing from the deepest heart.</p>
+                <a href="#portfolio" class="cta-button">View Projects</a>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="about-description">
+                        Saya adalah seorang pendidik profesional yang berkecimpung dalam dunia pendidikan. Pendekatan saya memadukan antara pendidikan dengan budaya 
+                        khususnya budaya lokal dari setiap daerah di Indonesia.Tujuan saya adalah untuk meningkatkan taraf pendidikan di Indonesia menjadi lebih maju dan berkualitas.
+                    </p>
+                    <p class="about-description">
+                        Saya juga penulis karya sastra yang memadukan banyak unsur-unsur kehidupan mulai dari romansa, tragedi, hingga edukasi bermakna.
+                        Sastra bagi saya adalah kehidupan kedua yang membuat saya bebas dalam menentukan pandangan dalam dunia yang abstrak
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">30+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">20+</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image fade-in">
+                    <img src="Foto profile Viky.jpg"  alt="Profile Picture" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title fade-in">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">🎨</div>
+                    <h3 class="skill-title">Literature</h3>
+                    <p class="skill-description">Aesthetics, Poetry, Theater</p>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">💻</div>
+                    <h3 class="skill-title">Development</h3>
+                    <p class="skill-description">Frontend Development, Responsive Design, Performance</p>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">📱</div>
+                    <h3 class="skill-title">Publik Speaking</h3>
+                    <p class="skill-description">Communication, Attitude, Body Language</p>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">🚀</div>
+                    <h3 class="skill-title">Strategy</h3>
+                    <p class="skill-description">Product Strategy, User Research, Analytics</p>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">🎯</div>
+                    <h3 class="skill-title">Marketing</h3>
+                    <p class="skill-description">Digital Marketing, SEO, Content Strategy</p>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">⚡</div>
+                    <h3 class="skill-title">Optimization</h3>
+                    <p class="skill-description">Performance Optimization, A/B Testing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+        <div class="container">
+            <h2 class="section-title fade-in">Featured Projects</h2>
+            
+            <!-- Filter Buttons -->
+            <div class="portfolio-filters fade-in">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Art</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+            </div>
+
+            <!-- Portfolio Grid -->
+            <div class="portfolio-grid">
+                <div class="portfolio-item fade-in" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="Viky gambar7.jpg" alt="E-commerce Platform">
+                        <div class="portfolio-overlay">
+                            <a href="#" class="portfolio-link" aria-label="View E-commerce Platform project">View Project</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Poetry</h3>
+                        <p class="portfolio-description">My literary works will accompany you in your unlimited imagination.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Art</span>
+                            <span class="tag">Story</span>
+                            <span class="tag">Aesthetic</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item fade-in" data-category="mobile">
+                    <div class="portfolio-image">
+                        <img src="Viky gambar1.jpg" alt="Fitness Mobile App">
+                        <div class="portfolio-overlay">
+                            <a href="#" class="portfolio-link" aria-label="View Fitness Mobile App project">View Project</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">CEO KEMUT Group</h3>
+                        <p class="portfolio-description">Cute and smart generation printing company on an international scale.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Company</span>
+                            <span class="tag">Cute</span>
+                            <span class="tag">Big Family</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item fade-in" data-category="branding">
+                    <div class="portfolio-image">
+                        <img src="Viky gambar3.jpg" alt="Brand Identity Design">
+                        <div class="portfolio-overlay">
+                            <a href="#" class="portfolio-link" aria-label="View Brand Identity Design project">View Project</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Model Charachter</h3>
+                        <p class="portfolio-description">Your beauty outshines thousands of stars.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Branding</span>
+                            <span class="tag">Design</span>
+                            <span class="tag">Identity</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item fade-in" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="Viky gambar2.jpg" alt="Corporate Website">
+                        <div class="portfolio-overlay">
+                            <a href="#" class="portfolio-link" aria-label="View Corporate Website project">View Project</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Campus Ambassador</h3>
+                        <p class="portfolio-description">Campus representatives in various promotional and talent events.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Brain</span>
+                            <span class="tag">Behavior</span>
+                            <span class="tag">Beauty</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item fade-in" data-category="mobile">
+                    <div class="portfolio-image">
+                        <img src="Viky gambar6.jpg" alt="Food Delivery App">
+                        <div class="portfolio-overlay">
+                            <a href="#" class="portfolio-link" aria-label="View Food Delivery App project">View Project</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Madurese Cultural Ambassador</h3>
+                        <p class="portfolio-description">Representatives of the nation's children in representing their beloved region in various series of events.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Cultural</span>
+                            <span class="tag">Local</span>
+                            <span class="tag">Traditional</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item fade-in" data-category="branding">
+                    <div class="portfolio-image">
+                        <img src="Viky gambar5.jpg" alt="Product Packaging">
+                        <div class="portfolio-overlay">
+                            <a href="#" class="portfolio-link" aria-label="View Product Packaging project">View Project</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Professional Teacher</h3>
+                        <p class="portfolio-description">Eco-friendly packaging design that reflects brand values and attracts customers.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Education</span>
+                            <span class="tag">Knowledge</span>
+                            <span class="tag">Patience</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+        <div class="container">
+            <h2 class="section-title fade-in">What Clients Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card fade-in">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"Saya sangat bangga karena sudah bisa bekerja sama dengan seorang Viky sebagai Founder."</p>
+                        <div class="testimonial-author">
+                            <img src="foto nefita.jpg" alt="Nefita Putri Mulyadi" class="author-image">
+                            <div class="author-info">
+                                <h4 class="author-name">Nefita Putri Mulyadi</h4>
+                                <p class="author-title">Sekretaris Jendral BLM, FISIP, UPN</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card fade-in">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"Sebagai editor dan team creativ saya lebih nyaman karena menemukan partner bisnis yang baik seperti anda."</p>
+                        <div class="testimonial-author">
+                            <img src="foto yolan.jpg" alt="Yolan Neva Saputra" class="author-image">
+                            <div class="author-info">
+                                <h4 class="author-name">Yolan Neva Saputra</h4>
+                                <p class="author-title">Atlet Basket, UNIBA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card fade-in">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"Saya merasa sangat bangga atas pencapaian anak saya sebagai penerus perusahaan KEMUT."</p>
+                        <div class="testimonial-author">
+                            <img src="foto dila.jpg" alt="Nadila Maulidina" class="author-image">
+                            <div class="author-info">
+                                <h4 class="author-name">Nadila Maulidina</h4>
+                                <p class="author-title">The Mom of KEMUT Group</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info fade-in">
+                    <h2 class="section-title">Let's Work Together</h2>
+                    <p class="contact-description">
+                        Ready to bring your ideas to life? I'd love to hear about your project and discuss how we can create something amazing together.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-label">Email</span>
+                            <a href="vikyaditama23148@gmail.com" class="contact-link">vikyaditama23148@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">Phone</span>
+                            <a href="tel:+6282337275370" class="contact-link">+62 (823) 3727 5370</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">Location</span>
+                            <span class="contact-text">Indonesia, In</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="https://www.linkedin.com/in/viky-aditama-55461b2b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" aria-label="LinkedIn">LinkedIn</a>
+                        <a href="#" class="https://www.instagram.com/vkyadtm?utm_source=qr&igsh=MTZxN2Yxc2c0eDBsNg==" aria-label="Instagram">Instagram</a>
+                        <a href="#" class="https://www.tiktok.com/@vixssy.x?_r=1&_t=ZS-91biW8sNG0f" aria-label="Tiktok">Tiktok</a>
+                        <a href="#" class="social-link" aria-label="GitHub">GitHub</a>
+                    </div>
+                </div>
+                <form class="contact-form fade-in" id="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" name="name" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" id="subject" name="subject" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="message" class="form-textarea" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <p class="footer-text">&copy; 2024 Viky Aditama. All rights reserved.</p>
+                </div>
+                <div class="footer-right">
+                    <nav class="footer-nav">
+                        <a href="#home" class="footer-link">Home</a>
+                        <a href="#about" class="footer-link">About</a>
+                        <a href="#portfolio" class="footer-link">Portfolio</a>
+                        <a href="#contact" class="footer-link">Contact</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
